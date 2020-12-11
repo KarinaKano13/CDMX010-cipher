@@ -1,3 +1,19 @@
+div.paginaPrincipal{
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  text-justify: newspaper;
+  text-align: center;
+}
+div.paginaPrncipal.button.botonP {
+  background: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  border:solid ;
+}
+
 .titulo{
     display: block;
     color: rgb(255, 255, 255);

@@ -1,21 +1,8 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+  //cipher.cifrado = document.getElementById("myBotonId").addEventListener("click",cifrar),
+  //document.descifrar = getElementById("myBotonId2").addEventListener("click",descifrar)
 
-let mensaje, desplazamiento, mensajeString, datos, mensajeCifrado;
-
-let informacion = document.getElementById("myBotonId").addEventListener("click", obtenerdatos)
-  
-function obtenerdatos() {
-  mensaje =  document.getElementById("mensaje").value;
-  desplazamiento = document.getElementById("offset").value;
-  mensajeString = new String(mensaje);
-  datos = [mensajeString.charCodeAt() + parseInt(desplazamiento)]
-  mensajeCifrado = String.fromCharCode(datos);
-
-  let element= mensajeCifrado;
-  document.getElementById("mensajeCifrado").innerHTML = element;
-}
 
 
 
