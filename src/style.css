@@ -15,7 +15,7 @@
   text-align: center;
   box-sizing:initial;
   height: 900px;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-left: 10px;
  
 }
@@ -139,6 +139,17 @@ a.boton{
     font-size: 25px;
     text-align:center;
     margin: 100px;
+   
+  }
+  p.parrafoPrincipal{
+    box-align:initial;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:normal;
+    font-size: 25px;
+    text-align:center;
+    margin: 100px;
+    font-weight: bold;
    
   }
 
