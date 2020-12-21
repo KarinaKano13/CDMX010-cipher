@@ -1,17 +1,41 @@
-div.paginaPrincipal{
-  display: block;
-  height: fit-content;
-  width: fit-content;
+.ppContent{
+  display: flex;
+  justify-content: space-around ;
+  margin: 100px;
+  
+}
+
+#paginaPrincipal1{
+
+  flex-direction: column;
+  width:100%;
   font-family: 'Courier New', Courier, monospace;
   color: black;
-  text-justify: newspaper;
+  justify-content: center;
   text-align: center;
+  box-sizing:initial;
+  height: 900px;
+  margin-top: 300px;
+  margin-left: 10px;
+ 
 }
-div.paginaPrncipal.button.botonP {
-  background: black;
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
-  border:solid ;
+a.boton{
+    display: block;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: black;
+    font-size: 18px;
+    border: solid;
+    width: 7em;
+    height: 2.3em;
+    text-align:center;
+    align-content: space-around;
+    background-color: black;
+    text-decoration: none;
+    padding-block: 10px;
+    padding-top: 25px;
+    
+    
 }
 
 .titulo{
@@ -19,17 +43,21 @@ div.paginaPrncipal.button.botonP {
     color: rgb(255, 255, 255);
     text-align:right;
     padding: .25em;
-    padding-right: 5em;
+    padding-right: 50px;
     padding-block-start:10px;
     padding-block-end:10px;
     box-shadow: black;
     background-color: black;
     margin-block-end: 25px;
+    margin-top: 0;
     background-origin:border-box;
     font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    height: 70px;
+    
   }
   
-  div.cifrado{
+  #cifradoC{
     background-color:white;
     background-position:center;
     width: 100%;
@@ -37,13 +65,26 @@ div.paginaPrncipal.button.botonP {
     margin-left: auto;
     margin-right: auto;
     padding-top: 0%;
+    height: 900px;
+    margin-top: 750px;
+  }
+  #descifradoD{
+    background-color:white;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0%;
+    height: 900px;
+    margin-top: 750px;
   }
   
   textarea{
     display:block ;
     margin-left: auto;
     margin-right: auto;
-    margin-top:initial;
+    margin-top:100px;
     marker-end: auto;
     border:solid;
     text-align: center;
@@ -52,9 +93,16 @@ div.paginaPrncipal.button.botonP {
     font-family:'Courier New', Courier, monospace;
     font-variant-position:initial;
     text-transform: uppercase;
-    padding: 7;
+    
     
   }
+.esp{
+  display: block;
+  margin-left: 100px;
+
+
+}
+
   input.numero{
    width: 5em;
    height: 1.5em;
@@ -63,14 +111,24 @@ div.paginaPrncipal.button.botonP {
    border: solid;
   }
   
-  button.boton{
+  .boton{
     width: 7em;
     height: 2.3em;
     margin-inline-end: 5em;
     background: black;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    
+  }
+  .boton:hover{
+    width: 7em;
+    height: 2.3em;
+    margin-inline-end: 5em;
+    background: rgb(255, 209, 0);
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(32,32, 32);
     border:solid ;
+
   }
   
   P{
@@ -80,9 +138,45 @@ div.paginaPrncipal.button.botonP {
     font-style:italic;
     font-size: 25px;
     text-align:center;
-    padding-top: 2em;
+    margin: 100px;
    
   }
+
+  h2{
+    text-align: center;
+  }
   
+  a.botoninicio{
+
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    display: block;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 45%;
+    
+  }
+ 
+  a.botoninicio:hover{
+
   
+    background: rgb(255, 209, 0);
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(32,32, 32);
+  
+  }
+
+  .parrafo{
+    display: block;
+    align-content: center;
+  }
   

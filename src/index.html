@@ -3,47 +3,75 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>GL0R14</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <head>
-     <h1 class="titulo">GL0RI4</h1>
+     <h1 class="titulo" id="inicio">GL0R14</h1>
     </head>
-       <main>
-         <!--
-         <div class="paginaPrincipal">
-           <h2 class="paginaPrincipal">PAGINA PRINCIPAL</h2>
-           <bUtton class="botonP">Cifrar</bUtton>
-           <bUtton class="botonP">Decifrar</bUtton>
-         </div>-->
-         <div class="cifrado">
+      <main>
+        <div id="paginaPrincipal1" class="paginaPrincipal">
+
+            <h2>PAGINA PRINCIPAL</h2>
+
+          <div class="ppContent">           
+
+           <a href="#cifradoC" class="boton">CIFRAR</a>
+
+           <a href="#descifradoD" class="boton">DESCIFRAR</a>
+
+          </div>
+
+        </div>
+
+        <div class="cifrado" id="cifradoC">
+
+          <h1 class="titulo">GL0R14</h1>
            
-              <textarea id="mensaje" cols="30" rows="10" placeholder="Ingrese mensaje" class"texto"></textarea><br>
+              <textarea id="mensaje" cols="30" rows="10" placeholder="Ingrese mensaje"></textarea><br>
 
-              <input type="number" placeholder="OFFSET" id="offset" class="numero">
+              <div class="esp">
 
-              <button id="myBotonId" class="boton"> SECRETO </button>
+                <input type="number" placeholder="OFFSET" id="offset" class="numero" >
 
-         </div>
+                <button id="myBotonId" class="boton"> SECRETO </button>
 
-          <div class"mensajeCifra">
-          <p id="resultado"><p>
-          </div>
+              </div>
+              <div>
 
-          <div>
-            <textarea id="mensaje2" cols="30" rows="10" placeholder="Ingrese mensaje" class"texto"></textarea><br>
+                <p id="resultado"></p>
+    
+              </div>
+            
+                <a href="#inicio" class="botoninicio">VOLVER AL MENÚ</a>
 
-              <input type="number2" placeholder="OFFSET" id="offset2" class="numero">
+        </div>
+        
+        <div class="descifrado" id="descifradoD">
 
-              <button id="myBotonId2" class="boton">SECRETO</button>
-          </div>
+          <h1 class="titulo">GL0R14</h1>
 
-          <div class"mensajeCifra">
+            <textarea id="mensaje2" cols="30" rows="10" placeholder="Ingrese mensaje"></textarea><br>
+           
+              <div class="esp">
 
-            <p id="resultado2"><p>
+               <input type="number2" placeholder="OFFSET" id="offset2" class="numero" min="1" max="26">
 
-          </div>
+                  <button id="myBotonId2" class="boton">SECRETO</button>
+            
+              </div>
+              <div ">
+
+                  <p id="resultado2"></p>
+
+               </div>
+
+              <a href="#inicio" class="botoninicio">VOLVER AL MENÚ</a>
+
+                
+
+        </div>
 
         </main>
     <script src="index.js" type="module"></script>
