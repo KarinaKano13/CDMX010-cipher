@@ -4,7 +4,7 @@ GL0R14
 
 Prototipo:
 
-
+![Imagen prototipo](https://raw.githubusercontent.com/KarinaKano13/CDMX010-cipher/master/Imagenes/PROTOTIPO.JPG)
 
 Con GL0R14 puedes cifrar y descifrar mensajes, copiarlos y enviarlos por medio de tu aplicación de mensajeria favorita
 
